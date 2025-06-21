@@ -3,7 +3,7 @@ import { Moon, Sun } from 'lucide-react';
 
 import { useTheme } from '@/context/ThemeProvider';
 
-import CitySearch from './CitySearch';
+import { CitySearch } from './CitySearch';
 
 const Header = () => {
   const { theme, setTheme } = useTheme();
